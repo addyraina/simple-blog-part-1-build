@@ -13,7 +13,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 //set timezone
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('America/New_York');
 
 //load classes as needed
 function __autoload($class) {
